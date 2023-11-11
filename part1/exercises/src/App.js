@@ -8,8 +8,11 @@ function App() {
   return (
     <div className="App">
       <MovieList />
-      <ChoresList />
+      <div className="similarComponents">
+     <ChoresList />
       <BookList />
+      <HobbyLinks />
+    </div>
     </div>
   );
 }

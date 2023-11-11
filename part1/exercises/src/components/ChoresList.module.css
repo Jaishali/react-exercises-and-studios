@@ -5,3 +5,13 @@
 .choresHeading {
    color: black;
 }
+
+.choresText {
+   color: red;
+   font-size: 1.3vw;
+   text-align: left;
+}
+
+.choresHeading {
+   text-align: left;
+}
