@@ -1,15 +1,17 @@
 import React from 'react';
+import classes from './HobbyLinks.module.css';
 class HobbyLinks extends React.Component {
     render() {
-        const hobbys = ["Readingbooks", "watching movies"];
+        const hobby = ["Reading Books", "Watching Movies"];
         return (
-        <div>
+        <div>  
             
            <h3 className = {classes.hobbyHeading}>My Hobbys</h3>
-           <ol>
-             <a href = {hobbyLinks[0]}>Link text...</a>
-             <a href = {hobbyLinks[1]}>Link text...</a>
-           </ol>
+           
+           <li className={classes.hobbyText}>{hobby[0]}</li>
+           <li className={classes.hobbyText}>{hobby[1]}</li>
+            
+           
         </div>
         );
      }

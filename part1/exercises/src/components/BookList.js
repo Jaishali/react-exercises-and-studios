@@ -1,5 +1,5 @@
 export default function BookList() {
-   let pageTitle = "shrug";
+   let pageTitle = "Latest Book Releses";
    let book1 = "google.com";
    let book2 = "";
    let book3 = "";
@@ -7,9 +7,11 @@ export default function BookList() {
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Romantic Comedy by Curtis Sittenfield" />
-         <img src={book2} alt="Tress of the Emerald Sea by Brandon Sanderson" />
-         <img src={book3} alt="The London Seance Society by Sarah Penner" />
+         
+      <li><img src={book1} alt="Romantic Comedy by Curtis Sittenfield" /></li>
+      <li><img src={book2} alt="Tress of the Emerald Sea by Brandon Sanderson" /></li>
+      <li><img src={book3} alt="The London Seance Society by Sarah Penner" /></li>
+      
       </div>      
    );
 }
