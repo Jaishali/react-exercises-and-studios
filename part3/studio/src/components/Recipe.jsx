@@ -1,13 +1,15 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
+   let authorLink = "https://www.ambitiouskitchen.com/";
    let authorPhoto = "";
-   let authorName = "";
+   let authorName = "Monique Volz";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} 
+         width="200px"
+         />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
