@@ -22,6 +22,7 @@ return <option key={index} value={board.value}>{board.value}</option>;
    });
 
    const handleChange = (event) => {
+      setBoardName(event.target.value);
    }
 
    return (
